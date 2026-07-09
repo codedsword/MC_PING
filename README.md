@@ -2,11 +2,11 @@
 
 Minimal Minecraft server status pinger written in one C file.
 
-Connects to a Minecraft server, performs the **Handshake → Status Request** protocol flow, and prints the server's version, player count, MOTD, and favicon info.
+Connects to a Minecraft server, performs the **Handshake → Status Request** protocol flow and prints the server's version, player count, MOTD, and favicon info.
 
 ## Features
 
-- Lightweight — no dependencies beyond **libc** and **cJSON**
+- Lightweight - no dependencies except **libc** and **cJSON**
 - Cross-architecture Linux compatible (x86, x86_64, ARM, AArch64, etc.)
 - Works on Termux (Android)
 - Optional raw JSON dump to file
