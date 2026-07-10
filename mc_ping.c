@@ -1,9 +1,9 @@
 /* SPDX-License-Identifier: MIT
  *  minimal Minecraft protocol client (handshake + status request) in C
- *  built this as a component for a bigger project. nore features will (probably) be addedin the future 
+ *  built this as a component for a bigger project. more features will (probably) be added in the future 
  *
  * I was lowkey too lazy to write my own json parser and shit so i used cJSON
- * packet framing, and the Handshake -> Status flow (no auth required).
+ *
  *
  * Only works on linux!!!!!!!!! windows support provably never
  * wrote this on my phone using termux so ive only tested it on that

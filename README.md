@@ -1,8 +1,8 @@
 # mc_ping
 
-Minimal Minecraft server status pinger written in one C file.
+Minimal Minecraft server status pinger written as a module for a bigger project(work in progress)in one C file.
 
-Connects to a Minecraft server, performs the **Handshake → Status Request** protocol flow and prints the server's version, player count, MOTD, and favicon info.
+Connects to a Minecraft server, performs the **Handshake → Status Request** protocol flow and prints the server's version, player count, MOTD and favicon info.
 
 ## Features
 
